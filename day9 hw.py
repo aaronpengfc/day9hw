@@ -7,9 +7,9 @@ def sel_2(code):
     print(n)
     dic[code] = [h,n]
 while True:
+    print(dic)
     a = int(input("the items code:1\nstop:2\nyour number:"))
     print(a)
-    print(dic) 
     if a==1:
         q = input("code:")
         print(q)
